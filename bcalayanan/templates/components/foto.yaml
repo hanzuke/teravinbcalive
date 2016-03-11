@@ -1,0 +1,4 @@
+templateScript: /bcalayanan/templates/components/foto.ftl
+renderType: freemarker
+dialog: bcalayanan:components/foto
+title: FOTO

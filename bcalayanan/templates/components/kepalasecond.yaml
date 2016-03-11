@@ -1,0 +1,4 @@
+templateScript: /bcalayanan/templates/components/kepalasecond.ftl
+renderType: freemarker
+dialog: bcalayanan:components/judul
+title: Judul Header

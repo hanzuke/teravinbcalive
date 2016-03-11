@@ -1,0 +1,39 @@
+form:
+  tabs:
+    - name: tabText
+      label: Texts
+      fields:
+        - name: judul
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Judul
+        - name: posisi
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          label: List style
+          options:
+            - name: kiri
+              value: blog-left wow fadeInLeft
+              selected: true
+              label: Kiri
+            - name: kanan
+              value: blog-right wow fadeInRight
+              label: Kanan
+        - name: perusahaan
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Link perusahaan
+        - name: uraian
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Uraian Teks
+    - name: tabImage
+      label: Image
+      fields:
+        - name: image
+          class: info.magnolia.dam.app.ui.field.definition.DamUploadFieldDefinition
+          label: Foto
+          binaryNodeName: uimage
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+

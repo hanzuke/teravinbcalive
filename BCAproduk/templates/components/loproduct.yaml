@@ -1,0 +1,4 @@
+templateScript: /BCAproduk/templates/components/loproduct.ftl
+renderType: freemarker
+dialog: BCAproduk:components/loproduct
+title: Singel Logo

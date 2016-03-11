@@ -1,0 +1,13 @@
+templateScript: /BCAlife/templates/pages/tatakelola-saham.ftl
+renderType: freemarker
+visible: true
+title: BCA-tatakelola-saham
+dialog: BCAlife:pages/main
+areas:
+  content-sections:
+    renderType: freemarker
+    availableComponents:
+      profil:
+        id: BCAlife:components/profil
+# eof: areas
+

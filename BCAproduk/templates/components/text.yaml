@@ -1,0 +1,4 @@
+templateScript: /BCAproduk/templates/components/text.ftl
+renderType: freemarker
+dialog: BCAproduk:components/text
+title: Text

@@ -1,0 +1,4 @@
+templateScript: /BCAproduk/templates/components/produk1.ftl
+renderType: freemarker
+dialog: BCAproduk:components/produk1
+title: Column Product

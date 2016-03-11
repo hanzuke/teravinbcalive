@@ -1,0 +1,14 @@
+form:
+  tabs:
+    - name: tabTexts
+      label: JUDUL
+      fields:
+        - name: judul
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Judul
+       
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

@@ -1,0 +1,4 @@
+templateScript: /BCAproduk/templates/components/list.ftl
+renderType: freemarker
+dialog: BCAproduk:components/list
+title: List

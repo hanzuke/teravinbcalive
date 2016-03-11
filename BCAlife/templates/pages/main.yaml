@@ -1,0 +1,17 @@
+templateScript: /BCAlife/templates/pages/main.ftl
+renderType: freemarker
+visible: true
+title: BCA
+dialog: BCAlife:pages/main
+areas:
+  content-sections:
+    renderType: freemarker
+    availableComponents:
+      text-video:
+        id: BCAlife:components/text-video
+      text:
+        id: BCAlife:components/text
+      visimisi:
+        id: BCAlife:components/visimisi
+# eof: areas
+

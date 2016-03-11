@@ -1,0 +1,4 @@
+templateScript: /BCAlife/templates/components/laporan.ftl
+dialog: BCAlife:components/laporan
+renderType: freemarker
+title: Upload Laporan Keuangan

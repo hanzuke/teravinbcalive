@@ -1,0 +1,4 @@
+templateScript: /BCAlife/templates/components/visimisi.ftl
+dialog: BCAlife:components/visimisi
+renderType: freemarker
+title: Visi dan Misi

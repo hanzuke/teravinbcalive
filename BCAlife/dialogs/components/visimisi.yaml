@@ -1,0 +1,31 @@
+form:
+  tabs:
+    - name: tabVisi
+      label: Visi dan Misi
+      fields:
+        - name: sectionName
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Section nav label
+        - name: kontenvisi
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Visi
+        - name: kontenmisi
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Misi
+        - name: subjudul
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Judul tambahan
+        - name: konten
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Konten tambahan
+    - name: tabFilosofi
+      label: Filosofi
+      fields:
+        - name: filosofi
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Judul
+        - name: kontenfil
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Filosofi
+
+actions: !include /BCAlife/dialogs/common/default-dialog-actions.yaml

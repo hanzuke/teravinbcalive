@@ -1,0 +1,4 @@
+templateScript: /bcalayanan/templates/components/itemslider.ftl
+renderType: freemarker
+dialog: bcalayanan:components/itemslider
+title: ITEM SLIDER

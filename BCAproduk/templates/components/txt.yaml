@@ -1,0 +1,4 @@
+templateScript: /BCAproduk/templates/components/txt.ftl
+renderType: freemarker
+dialog: BCAproduk:components/txt
+title: Text Footer

@@ -1,0 +1,4 @@
+templateScript: /bcalayanan/templates/components/itemlayanan.ftl
+renderType: freemarker
+dialog: bcalayanan:components/itemlayanan
+title: ITEM LAYANAN

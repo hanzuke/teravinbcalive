@@ -1,0 +1,15 @@
+templateScript: /BCAlife/templates/pages/tatakelola.ftl
+renderType: freemarker
+visible: true
+title: BCA-tatakelola
+dialog: BCAlife:pages/main
+areas:
+  content-sections:
+    renderType: freemarker
+    availableComponents:
+      text-video:
+        id: BCAlife:components/text-video
+      text:
+        id: BCAlife:components/text
+# eof: areas
+

@@ -1,0 +1,13 @@
+form:
+  tabs:
+    - name: tabTexts3
+      label: KONTEN
+      fields:
+        - name: konten4
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Konten   
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

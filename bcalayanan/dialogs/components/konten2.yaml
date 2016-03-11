@@ -1,0 +1,19 @@
+form:
+  tabs:
+    - name: tabTexts3
+      label: KONTEN
+      fields:
+        - name: ke
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Pertanyaan ke-
+        - name: pertanyaan
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Pertanyaan
+        - name: jawaban
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: jawaban     
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

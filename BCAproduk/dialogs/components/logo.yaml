@@ -1,0 +1,90 @@
+form:
+  tabs:
+    - name: tabTitle
+      label: Background
+      fields:        
+        - name: warna
+          label: Warna Background
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          options:
+            - name: warna
+              label: Biru
+              value: biru
+              selected: true
+            - name: merah
+              label: Merah
+              value: merah
+    - name: tabLogo1
+      label: Logo 1
+      fields:
+        - name: title1
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Judul
+          required: true
+        - name: logo1
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+          label: Logo
+        - name: page1
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: website
+          appName: pages
+          identifierToPathConverter:
+            class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
+          label: Link Halaman
+    - name: tabLogo2
+      label: Logo 2
+      fields:
+        - name: title2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Judul
+          required: true
+        - name: logo2
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+          label: Logo
+        - name: page2
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: website
+          appName: pages
+          identifierToPathConverter:
+            class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
+          label: Link Halaman
+    - name: tabLogo3
+      label: Logo 3
+      fields:
+        - name: title3
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Judul
+          required: true
+        - name: logo3
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+          label: logo
+        - name: page3
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: website
+          appName: pages
+          identifierToPathConverter:
+            class: info.magnolia.ui.form.field.converter.BaseIdentifierToPathConverter
+          label: Link Halaman
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

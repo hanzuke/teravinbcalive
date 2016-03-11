@@ -1,0 +1,9 @@
+templateScript: /bcalayanan/templates/components/fotohome.ftl
+renderType: freemarker
+title: FOTOHOME
+areas:
+ itemslider:
+    renderType: freemarker
+    availableComponents:
+      itemslider:
+        id: bcalayanan:components/itemslider

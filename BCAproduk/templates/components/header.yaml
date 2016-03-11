@@ -1,0 +1,4 @@
+templateScript: /BCAproduk/templates/components/header.ftl
+renderType: freemarker
+dialog: BCAproduk:components/header
+title: Header Page

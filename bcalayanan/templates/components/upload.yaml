@@ -1,0 +1,4 @@
+templateScript: /hello-magnolia/templates/components/upload.ftl
+renderType: freemarker
+dialog: hello-magnolia:components/upload
+title: UPLOAD

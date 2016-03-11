@@ -1,0 +1,4 @@
+templateScript: /BCAproduk/templates/components/logo.ftl
+renderType: freemarker
+dialog: BCAproduk:components/logo
+title: Tripel Logo

@@ -1,0 +1,26 @@
+templateScript: /BCAproduk/templates/pages/gallery.ftl
+renderType: freemarker
+visible: true
+title: BCA Life Gallery
+dialog: BCAproduk:pages/main
+areas:
+    main:
+        renderType: freemarker
+        availableComponents:
+            header:
+                id: BCAproduk:components/header
+            media:
+                id: BCAproduk:components/media
+            product:
+                id: BCAproduk:components/produk
+            logo:
+                id: BCAproduk:components/logo
+            loproduct:
+                id: BCAproduk:components/loproduct
+    footer:
+        renderType: freemarker
+        availableComponents:
+            list:
+                id: BCAproduk:components/list
+            txt:
+                id: BCAproduk:components/txt

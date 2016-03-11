@@ -1,0 +1,9 @@
+templateScript: /BCAproduk/templates/components/howto.ftl
+renderType: freemarker
+title: Tata Cara
+areas:
+    tata:
+        renderType: freemarker
+        availableComponents:
+            header:
+                id: BCAproduk:components/howto1

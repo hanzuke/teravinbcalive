@@ -1,0 +1,28 @@
+templateScript: /BCAproduk/templates/pages/main.ftl
+renderType: freemarker
+visible: true
+title: BCA Life Standard
+dialog: BCAproduk:pages/main
+areas:
+    main:
+        renderType: freemarker
+        availableComponents:
+            header:
+                id: BCAproduk:components/header
+            text:
+                id: BCAproduk:components/text
+            loproduct:
+                id: BCAproduk:components/loproduct
+            howto:
+                id: BCAproduk:components/howto
+            product:
+                id: BCAproduk:components/produk
+            logo:
+                id: BCAproduk:components/logo
+    footer:
+        renderType: freemarker
+        availableComponents:
+            list:
+                id: BCAproduk:components/list
+            txt:
+                id: BCAproduk:components/txt

@@ -1,0 +1,13 @@
+templateScript: /BCAlife/templates/pages/rekanbisnis.ftl
+renderType: freemarker
+visible: true
+title: BCA-rekanbisnis
+dialog: BCAlife:pages/main
+areas:
+  content-sections:
+    renderType: freemarker
+    availableComponents:
+      text-kolom:
+        id: BCAlife:components/text-kolom
+# eof: areas
+

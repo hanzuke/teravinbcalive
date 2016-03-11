@@ -1,0 +1,4 @@
+templateScript: /BCAlife/templates/components/text.ftl
+dialog: BCAlife:components/text
+renderType: freemarker
+title: Text

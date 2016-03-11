@@ -1,0 +1,4 @@
+templateScript: /BCAlife/templates/components/text-kolom.ftl
+dialog: BCAlife:components/text-kolom
+renderType: freemarker
+title: Uraian Teks

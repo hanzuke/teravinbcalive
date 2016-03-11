@@ -1,0 +1,21 @@
+form:
+  tabs:
+    - name: tabTexts2
+      label: itemlayanan
+      fields:
+        - name: title2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: JUDUL
+        - name: konten2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: KONTEN
+        - name: icon
+          class: info.magnolia.dam.app.ui.field.definition.DamUploadFieldDefinition
+          label: ICON
+          binaryNodeName: icon
+          required: true
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

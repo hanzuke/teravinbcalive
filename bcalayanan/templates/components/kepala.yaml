@@ -1,0 +1,3 @@
+templateScript: /bcalayanan/templates/components/kepala.ftl
+renderType: freemarker
+title: KEPALA

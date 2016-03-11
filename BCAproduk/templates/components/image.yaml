@@ -1,0 +1,4 @@
+templateScript: /BCAproduk/templates/components/image.ftl
+renderType: freemarker
+dialog: BCAproduk:components/image
+title: Photo

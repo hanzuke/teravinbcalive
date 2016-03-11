@@ -1,0 +1,4 @@
+templateScript: /bcalayanan/templates/components/konten2.ftl
+renderType: freemarker
+dialog: bcalayanan:components/konten2
+title: PERTANYAAN

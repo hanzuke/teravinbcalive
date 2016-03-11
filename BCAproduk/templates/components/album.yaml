@@ -1,0 +1,4 @@
+templateScript: /BCAproduk/templates/components/album.ftl
+renderType: freemarker
+dialog: BCAproduk:components/album
+title: Album

@@ -1,0 +1,19 @@
+form:
+  tabs:
+    - name: tabText
+      label: Texts
+      fields:
+        - name: teks
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Teks
+        - name: laporan
+          class: info.magnolia.dam.app.ui.field.definition.DamUploadFieldDefinition
+          label: Upload laporan (pdf)
+          binaryNodeName: lap
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+

@@ -1,0 +1,11 @@
+templateScript: /bcalayanan/templates/components/realekor.ftl
+renderType: freemarker
+title: Footer
+areas:
+ ekor:
+    renderType: freemarker
+    availableComponents:
+      kontak:
+        id: bcalayanan:components/kontak	
+      itemproduk:
+        id: bcalayanan:components/itemproduk

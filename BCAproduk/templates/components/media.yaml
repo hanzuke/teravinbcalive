@@ -1,0 +1,11 @@
+templateScript: /BCAproduk/templates/components/media.ftl
+renderType: freemarker
+title: Media
+areas:
+    media:
+        renderType: freemarker
+        availableComponents:
+            album:
+                id: BCAproduk:components/album
+            image:
+                id: BCAproduk:components/image

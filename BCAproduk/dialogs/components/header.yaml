@@ -1,0 +1,51 @@
+form:
+  tabs:
+    - name: tabTitle
+      label: Header
+      fields:
+        - name: title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Judul
+        - name: subtitle
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          rows: 5
+          label: Sub Judul
+        - name: letak
+          label: Letak Judul
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          options:
+            - name: atas
+              label: Judul diatas subjudul
+              value: atas
+              selected: true
+            - name: bawah
+              label: Judul dibawah subjudul
+              value: bawah
+        - name: posisi
+          label: Letak Text
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          options:
+            - name: kanan
+              label: Kanan
+              value: kanan
+              selected: true
+            - name: kiri
+              label: Kiri
+              value: kiri
+    - name: tabImage
+      label: Background
+      fields:
+        - name: image
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+          label: Image        	  
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

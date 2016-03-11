@@ -1,0 +1,4 @@
+templateScript: /bcalayanan/templates/components/revlayanan.ftl
+renderType: freemarker
+dialog: bcalayanan:components/revlayanan
+title: Review LAYANAN

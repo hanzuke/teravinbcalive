@@ -1,0 +1,4 @@
+templateScript: /bcalayanan/templates/components/konten1.ftl
+renderType: freemarker
+dialog: bcalayanan:components/konten1
+title: KONTEN

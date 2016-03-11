@@ -1,0 +1,4 @@
+templateScript: /BCAproduk/templates/components/howto1.ftl
+renderType: freemarker
+dialog: BCAproduk:components/howto1
+title: Column

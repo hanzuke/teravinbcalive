@@ -1,0 +1,4 @@
+templateScript: /bcalayanan/templates/components/judul.ftl
+renderType: freemarker
+dialog: bcalayanan:components/judul
+title: JUDUL

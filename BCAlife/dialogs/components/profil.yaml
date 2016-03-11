@@ -1,0 +1,38 @@
+form:
+  tabs:
+    - name: tabText
+      label: Texts
+      fields:
+        - name: idprofil
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: ID
+        - name: nama
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Nama
+        - name: jabatan
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Jabatan
+        - name: profil
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Profil singkat
+    - name: tabImage
+      label: Image
+      fields:
+        - name: image
+          class: info.magnolia.dam.app.ui.field.definition.DamUploadFieldDefinition
+          label: Foto
+          binaryNodeName: uimage
+    - name: tabImageBanner
+      label: Banner Image
+      fields:
+        - name: imagebanner
+          class: info.magnolia.dam.app.ui.field.definition.DamUploadFieldDefinition
+          label: Foto Banner
+          binaryNodeName: bannerimage
+
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+

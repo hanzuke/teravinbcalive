@@ -1,0 +1,31 @@
+form:
+  tabs:
+    - name: tabTitle
+      label: Header
+      fields:
+        - name: title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Judul
+        - name: text
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          rows: 3
+          label: Subtitle
+        - name: icon
+          label: Icon
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          options:
+            - name: users
+              label: Orang
+              value: fa-users
+              selected: true
+            - name: money
+              label: Uang
+              value: fa-money
+            - name: formulir
+              label: Formulir
+              value: fa-archive
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

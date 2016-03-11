@@ -1,0 +1,36 @@
+form:
+  tabs:
+    - name: tabTitle
+      label: Header
+      fields:
+        - name: title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Judul
+        - name: warna
+          label: Warna Background
+          class: info.magnolia.ui.form.field.definition.SelectFieldDefinition
+          options:
+            - name: warna
+              label: Biru
+              value: biru
+              selected: true
+            - name: merah
+              label: Merah
+              value: merah
+    - name: tabImage
+      label: Logo
+      fields:
+        - name: image
+          class: info.magnolia.ui.form.field.definition.LinkFieldDefinition
+          targetWorkspace: dam
+          appName: assets
+          identifierToPathConverter:
+            class: info.magnolia.dam.app.assets.field.translator.AssetCompositeIdKeyTranslator
+          contentPreviewDefinition:
+            contentPreviewClass: info.magnolia.dam.app.ui.field.DamFilePreviewComponent
+          label: Image
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

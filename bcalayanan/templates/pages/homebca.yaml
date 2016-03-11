@@ -1,0 +1,53 @@
+templateScript: /bcalayanan/templates/pages/homebca.ftl
+renderType: freemarker
+visible: true
+title: BCAHOME
+dialog: bcalayanan:pages/bcahome
+areas:
+ klaim:
+    renderType: freemarker
+    availableComponents:
+      judul:
+        id: bcalayanan:components/judul	
+      konten:
+        id: bcalayanan:components/konten
+      fotohome:
+        id: bcalayanan:components/fotohome
+      konten2:
+        id: bcalayanan:components/konten2
+      konten1:
+        id: bcalayanan:components/konten1
+ revlayanan:
+    renderType: freemarker
+    availableComponents:
+      judul:
+        id: bcalayanan:components/revlayanan
+ pilihproduk:
+    renderType: freemarker
+    availableComponents:
+      judul:
+        id: bcalayanan:components/judul	
+      itemproduk:
+        id: bcalayanan:components/itemproduk
+ ekor:
+    renderType: freemarker
+    availableComponents:
+      kontak:
+        id: bcalayanan:components/kontak	
+      itemproduk:
+        id: bcalayanan:components/itemproduk
+ itemfasilitas:
+    renderType: freemarker
+    availableComponents:
+      judul:
+        id: bcalayanan:components/itemfasilitas
+ footer:
+    renderType: freemarker
+    availableComponents:
+      judul:
+        id: bcalayanan:components/realekor
+ kepala:
+    renderType: freemarker
+    availableComponents:
+      kontak:
+        id: bcalayanan:components/kepala

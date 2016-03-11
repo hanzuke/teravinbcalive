@@ -1,0 +1,39 @@
+form:
+  tabs:
+    - name: tabText
+      label: Title texts
+      description: Texts for title and subtitle
+      fields:
+        - name: title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Title
+        - name: subtitle
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Sub title
+        - name: deskripsi
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Deskripsi halaman
+
+    - name: tabBgImage
+      label: Bg image
+      description: Background image of the intro section
+      fields:
+        - name: introBgImage
+          class: info.magnolia.dam.app.ui.field.definition.DamUploadFieldDefinition
+          label: Upload Video
+          binaryNodeName: introBgImage
+    - name: tabMeta
+      label: Meta
+      description: Meta information for the seo relevant tags keywords and description
+      fields:
+        - name: keywords
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          i18n: true
+          label: Keywords
+          rows: 3
+        - name: description
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          i18n: true
+          label: Description
+          rows: 5
+actions: !include /BCAlife/dialogs/common/default-dialog-actions.yaml

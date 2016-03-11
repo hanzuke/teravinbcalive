@@ -1,0 +1,4 @@
+templateScript: /bcalayanan/templates/components/kontak.ftl
+renderType: freemarker
+dialog: bcalayanan:components/kontak
+title: KONTAK

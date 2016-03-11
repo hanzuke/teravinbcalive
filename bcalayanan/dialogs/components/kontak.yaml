@@ -1,0 +1,19 @@
+form:
+  tabs:
+    - name: tabTexts3
+      label: KONTEN2
+      fields:
+        - name: mobile
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Mobile
+        - name: phone
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: Phone
+        - name: email
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: E-mail
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition

@@ -1,0 +1,4 @@
+templateScript: /BCAlife/templates/components/text-video.ftl
+dialog: BCAlife:components/text-video
+renderType: freemarker
+title: Text dan Video

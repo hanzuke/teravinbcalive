@@ -1,0 +1,4 @@
+templateScript: /bcalayanan/templates/components/itemfasilitas.ftl
+renderType: freemarker
+dialog: bcalayanan:components/itemfasilitas
+title: itemfasilitas

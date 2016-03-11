@@ -1,0 +1,9 @@
+templateScript: /BCAproduk/templates/components/produk.ftl
+renderType: freemarker
+title: Pilih Produk
+areas:
+    prod:
+        renderType: freemarker
+        availableComponents:
+            list:
+                id: BCAproduk:components/produk1

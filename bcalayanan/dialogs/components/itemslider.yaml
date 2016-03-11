@@ -1,0 +1,21 @@
+form:
+  tabs:
+    - name: tabText5
+      label: UPLOAD
+      fields:
+        - name: title2
+          class: info.magnolia.ui.form.field.definition.RichTextFieldDefinition
+          label: Title
+        - name: ket2
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+          label: keterangan      		  
+        - name: foto2
+          binaryNodeName: gbr2
+          class: info.magnolia.dam.app.ui.field.definition.DamUploadFieldDefinition
+          label: Select image
+          required: true
+actions:
+  commit:
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
